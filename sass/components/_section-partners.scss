@@ -1,7 +1,12 @@
 .partners-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
+
+    @media screen and (min-width:1200px) {
+        flex-wrap: nowrap;
+    }
 
 
 &__link {
@@ -9,7 +14,7 @@
     align-items: center;
     justify-content: center;
     
-    width: 170px;
+    width: 210px;
     height: 92px;
     
     background-color: var(--primary-white-fon);
@@ -19,6 +24,14 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:1200px) {
+        width: 226px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 170px;
+    }
 }
 
 &__link:hover,
