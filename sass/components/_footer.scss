@@ -1,0 +1,26 @@
+.footer {
+    background: var(--dark-fon);
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+
+&__container {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+&__block:last-child {
+    margin-left: auto;
+}
+
+&__item {
+    margin-bottom: 20px;
+
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+}
