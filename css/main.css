@@ -482,22 +482,22 @@ p {
     background-image: url(../images/header-img_sm-@2x.png);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
   .hero {
     background-image: url(../images/header-img_md-@1x.png);
   }
 }
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/header-img_md-@2x.png);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 769px) {
   .hero {
     background-image: url(../images/header-img_lg-@1x.png);
   }
 }
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/header-img_lg-@2x.png);
   }
@@ -552,12 +552,12 @@ p {
 }
 @media screen and (min-width: 480px) {
   .hero__btn {
-    width: 200px;
+    width: 216px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__btn {
-    width: 216px;
+    width: 200px;
   }
 }
 .hero__btn:focus, .hero__btn:hover {
