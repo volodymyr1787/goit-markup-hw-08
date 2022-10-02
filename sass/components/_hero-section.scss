@@ -18,7 +18,7 @@
             background-image: url(../images/header-img_sm-@2x.png);
         }
 
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 769px) {
         background-image:url(../images/header-img_md-@1x.png);
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -27,7 +27,7 @@
         }
     }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1200px) {
         background-image: url(../images/header-img_lg-@1x.png);
     
     @media (min-device-pixel-ratio: 2),
