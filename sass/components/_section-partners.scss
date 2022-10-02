@@ -1,22 +1,25 @@
 .partners-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    display: block;
     margin-top: 50px;
+
+    
+    @media screen and (min-width:480px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+        }
 
     @media screen and (min-width:1200px) {
         flex-wrap: nowrap;
     }
 
+&__block:not(:last-child) {
+    margin-bottom: 10px;
+}
 
 &__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 210px;
-    height: 92px;
-    
+    display: block;
     background-color: var(--primary-white-fon);
     border: 1px solid var(--logo-fill);
     border-radius: 4px;
@@ -24,6 +27,15 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:480px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 92px;
+        width: 210px;
+        }
 
     @media screen and (min-width:1200px) {
         width: 226px;

@@ -54,38 +54,32 @@
       </button>
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="toggle-btn js-close-menu">
-        <svg width="40" height="40">
+        <svg class="toggle-btn__icon" width="40" height="40">
                 <use href="./images/icons.svg#menu-close"></use>
               </svg>
       </button>
-      <ul class="menu-list list">
-            <li class="menu-list__item"><a class="menu-list__link" href="./index.html">Студія</a></li>
-            <li class="menu-list__item"><a class="menu-list__link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="menu-list__item"><a class="menu-list__link" href="">Контакти</a></li>
+      <ul class="menu-nav list">
+            <li class="menu-nav__item"><a class="menu-nav__link" href="./index.html">Студія</a></li>
+            <li class="menu-nav__item"><a class="menu-nav__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="menu-nav__item"><a class="menu-nav__link" href="">Контакти</a></li>
           </ul>
-          <ul class="menu-list list">
-          <li class="menu-list__item">
-            <a class="menu-list__link" href="mailto:info@devstudio.com">
-              <svg class="menu-list__logo" width="16" height="12">
-                <use href="./images/icons.svg#icon-mail"></use>
-              </svg>
-              info@devstudio.com</a
+          <ul class="menu-contact list">
+          <li class="menu-contact__item">
+           <a class="menu-contact__tel" href="tel:+380961111111">
+              +38 096 111 11 11</a
             >
           </li>
-          <li class="menu-list__item">
-            <a class="menu-list__link" href="tel:+380961111111">
-              <svg class="menu-list__logo" width="10" height="16">
-                <use href="./images/icons.svg#icon-tel"></use>
-              </svg>
-              +38 096 111 11 11</a
+          <li class="menu-contact__item">
+            <a class="menu-contact__mail" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
             >
           </li>
         </ul>
         <ul class="menu-socials list">
-            <li class="menu-socials__item"><a class="menu-socials__link" href="">Студія</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link" href="">Портфоліо</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link" href="">Контакти</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link" href="">Контакти</a></li>
+            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.instagram.com">Instagram</a></li>
+            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.twitter.com">Twitter</a></li>
+            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.facebook.com">Facebook</a></li>
+            <li class="menu-socials__item"><a class="menu-socials__link" href="https://www.linkedin.com">LinkedIn</a></li>
           </ul>
       </div>
       </div>
@@ -244,7 +238,15 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="teamcard-list list">
             <li class="teamcard-list__block">
-              <img src="images/img4.jpg" alt="фото Ігор Дем'яненко" width="270" height="260" />
+              <img
+              srcset="images/teamcard/img1-270.jpg 270w,
+                      images/teamcard/img1-540.jpg 540w,
+                      images/teamcard/img1-354.jpg 354w,
+                      images/teamcard/img1-708.jpg 708w,
+                      images/teamcard/img1-450.jpg 450w,
+                      images/teamcard/img1-900.jpg 900w,"
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+              src="images/teamcard/img1-270" alt="фото Ігор Дем'яненко" />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Ігор Дем'яненко</h3>
                 <p class="teamcard-list__item">Product Designer</p>
@@ -301,7 +303,15 @@
               </div>
             </li>
             <li class="teamcard-list__block">
-              <img src="images/img5.jpg" alt="фото Ольга Рєпіна" width="270" height="260" />
+              <img 
+              srcset="images/teamcard/img2-270.jpg 270w,
+                      images/teamcard/img2-540.jpg 540w,
+                      images/teamcard/img2-354.jpg 354w,
+                      images/teamcard/img2-708.jpg 708w,
+                      images/teamcard/img2-450.jpg 450w,
+                      images/teamcard/img2-900.jpg 900w,"
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+              src="images/teamcard/img2-270" alt="фото Ольга Рєпіна" />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Ольга Рєпіна</h3>
                 <p class="teamcard-list__item">Frontend Developer</p>
@@ -358,7 +368,15 @@
               </div>
             </li>
             <li class="teamcard-list__block">
-              <img src="images/img6.jpg" alt="фото Микола Тарасов" width="270" height="260" />
+              <img
+              srcset="images/teamcard/img3-270.jpg 270w,
+                      images/teamcard/img3-540.jpg 540w,
+                      images/teamcard/img3-354.jpg 354w,
+                      images/teamcard/img3-708.jpg 708w,
+                      images/teamcard/img3-450.jpg 450w,
+                      images/teamcard/img3-900.jpg 900w,"
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+              src="images/teamcard/img3-270" alt="фото Микола Тарасов" />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Микола Тарасов</h3>
                 <p class="teamcard-list__item">Marketing</p>
@@ -415,7 +433,15 @@
               </div>
             </li>
             <li class="teamcard-list__block">
-              <img src="images/img7.jpg" alt="фото Михайло Єрмаков" width="270" height="260" />
+              <img
+              srcset="images/teamcard/img4-270.jpg 270w,
+                      images/teamcard/img4-540.jpg 540w,
+                      images/teamcard/img4-354.jpg 354w,
+                      images/teamcard/img4-708.jpg 708w,
+                      images/teamcard/img4-450.jpg 450w,
+                      images/teamcard/img4-900.jpg 900w,"
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+              src="images/teamcard/img4-270g" alt="фото Михайло Єрмаков" />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Михайло Єрмаков</h3>
                 <p class="teamcard-list__item">UI Designer</p>

@@ -1,6 +1,11 @@
 .address-list {
     font-style: normal;
     line-height: 1.71;
+    text-align: center;
+
+    @media screen and (min-width:1200px) {
+            text-align: start;
+        }
 
 
 &__item:not(:last-child) {
@@ -26,6 +31,7 @@
 &__link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    
 
     transition-property: color;
     transition-duration: 250ms;
