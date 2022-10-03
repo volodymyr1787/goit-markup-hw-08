@@ -1,6 +1,11 @@
 .footer {
     padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--dark-fon);
+
+    
+
+
     
 
 
@@ -13,10 +18,12 @@
     @media screen and (min-width:768px) {
             flex-direction: row;
             flex-wrap: wrap;
+            align-items: baseline;
+            padding: 0;
+            
         }
     
      @media screen and (min-width:1200px) {
-        align-items: baseline;
         gap: 70px;
         }
 
@@ -27,7 +34,6 @@
 
 
 &__block {
-    margin-bottom: 60px;
     @media screen and (min-width:480px) {
             display: flex;
             flex-direction: column;
@@ -42,14 +48,12 @@
 }
 
 &__block:not(:last-child) {
+    margin-bottom: 60px;
     @media screen and (min-width:1200px) {
         margin-left: auto;
         }
 }
 
-/*&__block:last-child {
-    
-}*/
 
 &__item {
     display: block;

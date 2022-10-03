@@ -1,11 +1,20 @@
 .filter-list {
+    max-width: 326px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: start;
+
+    @media screen and (min-width:768px) {
+            max-width: 100%;
+            justify-content: center;
+            gap: 10px;
+        }
 
 
-&__block:not(:last-child) {
+/*&__block:not(:last-child) {
     margin-right: 10px;
-}
+}*/
 
 &__btn {
     padding: 6px 22px;
