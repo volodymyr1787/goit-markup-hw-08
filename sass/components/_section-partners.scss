@@ -6,6 +6,8 @@
     @media screen and (min-width:480px) {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         gap: 30px;
         
         }
@@ -19,7 +21,9 @@
 }
 
 &__link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-white-fon);
     border: 1px solid var(--logo-fill);
     border-radius: 4px;

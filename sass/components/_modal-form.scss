@@ -146,9 +146,17 @@
 }
 
 &__item {
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     color: var(--item-text-color);
     cursor: pointer;
+
+    @media screen and (min-width:1200px) {
+            font-size: 14px;
+            line-height: 1.71;
+        }
+
+
 }
 
 &__checkbox {

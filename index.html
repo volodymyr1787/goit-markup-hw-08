@@ -20,12 +20,16 @@
     <header class="header">
       <div class="container header__container">
         <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo__dark">Studio</span></a
-          >
+          >Web<span class="logo__dark">Studio</span></a
+        >
         <nav class="navigation">
           <ul class="navigation__list list">
-            <li class="navigation__item"><a class="navigation__link navigation__link--current" href="./index.html">Студія</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="navigation__item">
+              <a class="navigation__link navigation__link--current" href="./index.html">Студія</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="./portfolio.html">Портфоліо</a>
+            </li>
             <li class="navigation__item"><a class="navigation__link" href="">Контакти</a></li>
           </ul>
         </nav>
@@ -47,41 +51,58 @@
             >
           </li>
         </ul>
-        <button type="button" class="menu-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg width="40" height="40">
-                <use  href="./images/icons.svg#menu-open"></use>
-              </svg>
-      </button>
-      <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="toggle-btn js-close-menu">
-        <svg class="toggle-btn__icon" width="40" height="40">
-                <use href="./images/icons.svg#menu-close"></use>
-              </svg>
-      </button>
-      <ul class="menu-nav list">
+        <button
+          type="button"
+          class="menu-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#menu-open"></use>
+          </svg>
+        </button>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+          <button class="toggle-btn js-close-menu">
+            <svg class="toggle-btn__icon" width="40" height="40">
+              <use href="./images/icons.svg#menu-close"></use>
+            </svg>
+          </button>
+          <ul class="menu-nav list">
             <li class="menu-nav__item"><a class="menu-nav__link" href="./index.html">Студія</a></li>
-            <li class="menu-nav__item"><a class="menu-nav__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="menu-nav__item">
+              <a class="menu-nav__link" href="./portfolio.html">Портфоліо</a>
+            </li>
             <li class="menu-nav__item"><a class="menu-nav__link" href="">Контакти</a></li>
           </ul>
           <ul class="menu-contact list">
-          <li class="menu-contact__item">
-           <a class="menu-contact__tel" href="tel:+380961111111">
-              +38 096 111 11 11</a
-            >
-          </li>
-          <li class="menu-contact__item">
-            <a class="menu-contact__mail" href="mailto:info@devstudio.com">
-              info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="menu-socials list">
-            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.instagram.com">Instagram</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.twitter.com">Twitter</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link menu-socials__link--end" href="https://www.facebook.com">Facebook</a></li>
-            <li class="menu-socials__item"><a class="menu-socials__link" href="https://www.linkedin.com">LinkedIn</a></li>
+            <li class="menu-contact__item">
+              <a class="menu-contact__tel" href="tel:+380961111111"> +38 096 111 11 11</a>
+            </li>
+            <li class="menu-contact__item">
+              <a class="menu-contact__mail" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+            </li>
           </ul>
-      </div>
+          <ul class="menu-socials list">
+            <li class="menu-socials__item">
+              <a class="menu-socials__link menu-socials__link--end" href="https://www.instagram.com"
+                >Instagram</a
+              >
+            </li>
+            <li class="menu-socials__item">
+              <a class="menu-socials__link menu-socials__link--end" href="https://www.twitter.com"
+                >Twitter</a
+              >
+            </li>
+            <li class="menu-socials__item">
+              <a class="menu-socials__link menu-socials__link--end" href="https://www.facebook.com"
+                >Facebook</a
+              >
+            </li>
+            <li class="menu-socials__item">
+              <a class="menu-socials__link" href="https://www.linkedin.com">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!--Тіло-->
@@ -180,7 +201,9 @@
                 </svg>
               </div>
               <h3 class="feature-list__title">ПЛАНУВАННЯ</h3>
-              <p class="feature-list__item">Так само консультація з широким активом значною мірою зумовлює.</p>
+              <p class="feature-list__item">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
             <li class="feature-list__block">
               <div class="feature-list__img">
@@ -227,8 +250,12 @@
             </li>
             <li class="work-list__block">
               <img
-               srcset="images/works/img3-370.jpg 1x, images/works/img3-740.jpg 2x"
-               src="images/img3.jpg" alt="Вибір кольору на планшеті" width="370" height="294" />
+                srcset="images/works/img3-370.jpg 1x, images/works/img3-740.jpg 2x"
+                src="images/img3.jpg"
+                alt="Вибір кольору на планшеті"
+                width="370"
+                height="294"
+              />
               <div class="work-list__box">
                 <p class="work-list__item">Дизайнерські рішення</p>
               </div>
@@ -243,14 +270,18 @@
           <ul class="teamcard-list list">
             <li class="teamcard-list__block">
               <img
-              srcset="images/teamcard/img1-270.jpg 270w,
-                      images/teamcard/img1-540.jpg 540w,
-                      images/teamcard/img1-354.jpg 354w,
-                      images/teamcard/img1-708.jpg 708w,
-                      images/teamcard/img1-450.jpg 450w,
-                      images/teamcard/img1-900.jpg 900w,"
-              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-              src="images/teamcard/img1-270" alt="фото Ігор Дем'яненко" />
+                srcset="
+                  images/teamcard/img1-270.jpg 270w,
+                  images/teamcard/img1-540.jpg 540w,
+                  images/teamcard/img1-354.jpg 354w,
+                  images/teamcard/img1-708.jpg 708w,
+                  images/teamcard/img1-450.jpg 450w,
+                  images/teamcard/img1-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="images/teamcard/img1-270"
+                alt="фото Ігор Дем'яненко"
+              />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Ігор Дем'яненко</h3>
                 <p class="teamcard-list__item">Product Designer</p>
@@ -307,15 +338,19 @@
               </div>
             </li>
             <li class="teamcard-list__block">
-              <img 
-              srcset="images/teamcard/img2-270.jpg 270w,
-                      images/teamcard/img2-540.jpg 540w,
-                      images/teamcard/img2-354.jpg 354w,
-                      images/teamcard/img2-708.jpg 708w,
-                      images/teamcard/img2-450.jpg 450w,
-                      images/teamcard/img2-900.jpg 900w,"
-              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-              src="images/teamcard/img2-270" alt="фото Ольга Рєпіна" />
+              <img
+                srcset="
+                  images/teamcard/img2-270.jpg 270w,
+                  images/teamcard/img2-540.jpg 540w,
+                  images/teamcard/img2-354.jpg 354w,
+                  images/teamcard/img2-708.jpg 708w,
+                  images/teamcard/img2-450.jpg 450w,
+                  images/teamcard/img2-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="images/teamcard/img2-270"
+                alt="фото Ольга Рєпіна"
+              />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Ольга Рєпіна</h3>
                 <p class="teamcard-list__item">Frontend Developer</p>
@@ -373,14 +408,18 @@
             </li>
             <li class="teamcard-list__block">
               <img
-              srcset="images/teamcard/img3-270.jpg 270w,
-                      images/teamcard/img3-540.jpg 540w,
-                      images/teamcard/img3-354.jpg 354w,
-                      images/teamcard/img3-708.jpg 708w,
-                      images/teamcard/img3-450.jpg 450w,
-                      images/teamcard/img3-900.jpg 900w,"
-              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-              src="images/teamcard/img3-270" alt="фото Микола Тарасов" />
+                srcset="
+                  images/teamcard/img3-270.jpg 270w,
+                  images/teamcard/img3-540.jpg 540w,
+                  images/teamcard/img3-354.jpg 354w,
+                  images/teamcard/img3-708.jpg 708w,
+                  images/teamcard/img3-450.jpg 450w,
+                  images/teamcard/img3-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="images/teamcard/img3-270"
+                alt="фото Микола Тарасов"
+              />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Микола Тарасов</h3>
                 <p class="teamcard-list__item">Marketing</p>
@@ -438,14 +477,18 @@
             </li>
             <li class="teamcard-list__block">
               <img
-              srcset="images/teamcard/img4-270.jpg 270w,
-                      images/teamcard/img4-540.jpg 540w,
-                      images/teamcard/img4-354.jpg 354w,
-                      images/teamcard/img4-708.jpg 708w,
-                      images/teamcard/img4-450.jpg 450w,
-                      images/teamcard/img4-900.jpg 900w,"
-              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-              src="images/teamcard/img4-270g" alt="фото Михайло Єрмаков" />
+                srcset="
+                  images/teamcard/img4-270.jpg 270w,
+                  images/teamcard/img4-540.jpg 540w,
+                  images/teamcard/img4-354.jpg 354w,
+                  images/teamcard/img4-708.jpg 708w,
+                  images/teamcard/img4-450.jpg 450w,
+                  images/teamcard/img4-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="images/teamcard/img4-270g"
+                alt="фото Михайло Єрмаков"
+              />
               <div class="teamcard-list__text">
                 <h3 class="teamcard-list__title">Михайло Єрмаков</h3>
                 <p class="teamcard-list__item">UI Designer</p>
@@ -559,9 +602,7 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__block">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo__light">Studio</span></a
-          >
+          <a class="logo" href="./index.html">Web<span class="logo__light">Studio</span></a>
           <address class="address__block">
             <ul class="address-list list">
               <li class="address-list__item">
@@ -574,9 +615,13 @@
                 >
               </li>
               <li class="address-list__item">
-                <a class="address-list__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address-list__link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="address-list__item"><a class="address-list__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="address-list__item">
+                <a class="address-list__link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
             </ul>
           </address>
         </div>
@@ -609,7 +654,7 @@
             </li>
             <li class="soc-networks__block">
               <a
-                class="soc-networks__link  soc-networks__link--footer"
+                class="soc-networks__link soc-networks__link--footer"
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -635,19 +680,24 @@
         </div>
         <div class="footer__block">
           <p class="footer__item">Підпишіться на розсилку</p>
-          <form class="register-form form-subscribe" name="register-form" autocomplete="off" novalidate>
-          <label class="form-subscribe__title">
-            <input class="form-subscribe__mail" type="email" name="mail" placeholder="E-mail" />
-          </label>
-          <button class="form-subscribe__btn" type="submit">Підписатися
-            <span class="form-subscribe__icon">
-            <svg  width="24" height="24">
+          <form
+            class="register-form form-subscribe"
+            name="register-form"
+            autocomplete="off"
+            novalidate
+          >
+            <label class="form-subscribe__title">
+              <input class="form-subscribe__mail" type="email" name="mail" placeholder="E-mail" />
+            </label>
+            <button class="form-subscribe__btn" type="submit">
+              Підписатися
+              <span class="form-subscribe__icon">
+                <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
-          </span>
-        </button>
+              </span>
+            </button>
           </form>
-          </div>
         </div>
       </div>
     </footer>

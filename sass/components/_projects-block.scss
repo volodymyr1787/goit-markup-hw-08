@@ -10,7 +10,9 @@
     
 
 &__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     text-decoration: none;
 
     transition-property: box-shadow;
@@ -85,7 +87,7 @@
 
 
 &__text {
-    display: block;
+    flex-grow: 1;
     padding: 20px;
     /*width: 370px;
     height: 110px;*/
