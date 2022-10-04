@@ -863,6 +863,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .feature-list {
@@ -874,14 +875,6 @@ p {
         flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1200px) {
-  .feature-list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
 @media screen and (min-width: 768px) {
   .feature-list__block {
     width: 354px;
@@ -890,19 +883,6 @@ p {
 @media screen and (min-width: 1200px) {
   .feature-list__block {
     width: 270px;
-  }
-}
-.feature-list__block:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media screen and (min-width: 1200px) {
-  .feature-list__block:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .feature-list__block:nth-child(2n+1) {
-    margin-right: 30px;
   }
 }
 .feature-list__img {
@@ -956,6 +936,7 @@ p {
 }
 
 .section.work-section {
+  padding-top: 0;
   display: none;
 }
 @media screen and (min-width: 1200px) {
@@ -1256,16 +1237,24 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 .footer__block:not(:last-child) {
@@ -1300,10 +1289,7 @@ p {
 }
 .footer__item {
   display: block;
-  text-align: center;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--white-text-color);
   font-weight: 700;
   font-size: 14px;

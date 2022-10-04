@@ -26,11 +26,17 @@
 &__block {
     @media screen and (min-width:480px) {
             display: flex;
+            align-items: center;
             flex-direction: column;
             align-items: center;
             justify-content: center;
 
     }
+
+    @media screen and (min-width:1200px) {
+        align-items: flex-start;
+    }
+
 }
 
 &__block:not(:last-child) {
@@ -65,10 +71,7 @@
 
 &__item {
     display: block;
-    text-align: center;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
 
     color: var(--white-text-color);
     font-weight: 700;
