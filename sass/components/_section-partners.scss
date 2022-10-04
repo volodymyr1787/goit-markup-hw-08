@@ -18,6 +18,10 @@
 
 &__block:not(:last-child) {
     margin-bottom: 10px;
+
+    @media screen and (min-width:480px) {
+        margin-bottom: 0;
+}
 }
 
 &__link {
